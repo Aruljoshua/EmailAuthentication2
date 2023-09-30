@@ -13,6 +13,30 @@
         android:theme="@style/Theme.EmailAuthentication"
         tools:targetApi="31">
         <activity
+            android:name=".General_info5"
+            android:exported="false" />
+        <activity
+            android:name=".General_info4"
+            android:exported="false" />
+        <activity
+            android:name=".General_info3"
+            android:exported="false" />
+        <activity
+            android:name=".Genaral_info2"
+            android:exported="false" />
+        <activity
+            android:name=".Genaral_info"
+            android:exported="false" />
+        <activity
+            android:name=".Client_Information_2"
+            android:exported="false" />
+        <activity
+            android:name=".Client_Information_1"
+            android:exported="false" />
+        <activity
+            android:name=".Client_Information"
+            android:exported="false" />
+        <activity
             android:name=".forgotpassword"
             android:exported="false" />
         <activity
@@ -29,13 +53,9 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="true"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+
     </application>
 
 </manifest>

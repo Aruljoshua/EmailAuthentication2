@@ -1,4 +1,3 @@
-
 package com.example.emailauthentication;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,39 +11,33 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class signup extends AppCompatActivity {
-
-
     private EditText msignupemail,msignuppassword;
     private RelativeLayout msignup;
     private TextView mgotologin;
-
-
     private FirebaseAuth firebaseAuth;
-
-
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup2);
-
         msignupemail=findViewById(R.id.signupemail);
         msignuppassword=findViewById(R.id.signuppassword);
         msignup=findViewById(R.id.signup);
         mgotologin=findViewById(R.id.gotologin);
-
-
         firebaseAuth= FirebaseAuth.getInstance();
-
-
-
-
-
         mgotologin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,9 +49,28 @@ public class signup extends AppCompatActivity {
         msignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 String mail=msignupemail.getText().toString().trim();
                 String password=msignuppassword.getText().toString().trim();
+                Map<String, Object> user = new HashMap<>();
+                user.put("email", mail);
+                user.put("password", password);
+
+
+                db.collection("PlayerDetails")
+                        .add(user)
+                        .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+                            @Override
+                            public void onSuccess(DocumentReference documentReference) {
+                                Toast.makeText(signup.this, "Account created successfully!", Toast.LENGTH_SHORT).show();
+                                finish(); // Finish the Signup activity
+                            }
+                        })
+                        .addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception e) {
+                                Toast.makeText(signup.this, "Error creating account. Please try again.", Toast.LENGTH_SHORT).show();
+                            }
+                        });
 
                 if(mail.isEmpty() || password.isEmpty())
                 {
@@ -110,7 +122,7 @@ public class signup extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Verification Email is Sent,Verify and Log In Again",Toast.LENGTH_SHORT).show();
                     firebaseAuth.signOut();
                     finish();
-                    startActivity(new Intent(signup.this,MainActivity.class));
+                    startActivity(new Intent(signup.this,Client_Information.class));
                 }
             });
         }
