@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nextbtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".A8">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".A8">
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="498dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="18.15dp"
+                android:text="Commands" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Adequate without prompt" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Adequate with prompt" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Inadequate with prompt" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Nil" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Single step" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="2 step related" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="2 step unrelated" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="3 step related" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="3 step unrelated" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Complex" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView186"
+        android:layout_width="73dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:text="Remarks:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+
+    <EditText
+        android:id="@+id/editTextText62"
+        android:layout_width="422dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="104dp"
+        android:ems="10"
+        android:hint="Remarks"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="match_parent"
+        android:layout_height="1405dp"
+        android:layout_marginTop="112dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText62">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="18.15dp"
+                android:text="Lexical items" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Example for the items" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Comprehension" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Expression" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Fruits" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:text="Apple,banana,orange,mango,pinaple,grapes,strawberry,watermelon,kiwi,pomegranate,papaya,guava,lemon,cherry,litchi etc" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Vegetables" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:text="Tomato,carrot,chilly,potato,onion,garlic,ginger,brinjal,cabbage,ladies finger,beetroot,corn,bitter gourd etc" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="ExtraText">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Animals" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:text="Dog,cat,horse,cow,lion,tiger,elephant,monkey,giraffe,zebra,kangaroo,rabbit,rat,sheep,deer,snake,bull,crocodile,dinosaur"
+                android:padding="8dp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Vehicles" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:text="Car,bus,bike,cycle,auto,train,jeep,truck,aeroplane,rocket,scooter" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Body parts" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:text="Eye,ear,nose,mouth,tounge,teeth,cheek,head,leg,stomach,foot,finger,neck,nail,hair" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Colours" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:text="Blue,red,yellow,green,brown,purple,pink,white etc" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Common objects" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:text="Fan,light,book,pencil,bottle,table,plate,cup,spoon,bed,toys,knife,comb,bucket,mug,bag,pen,mat,tv,fridge,sofa,watch etc" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Cloths" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:text="T-shirt,pant,tie,shoes,cap,hat,cap,frock,slipper" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Shapes" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:text="Triangle,circle,rectangle,square,hexagon,heart,diamond" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Foods" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:text="Biscuits,bread,milk,jam,juice,dosa,idli,rice,burger,pizza,noodles etc" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Others" />
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="46dp"
+        android:text="Previous"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

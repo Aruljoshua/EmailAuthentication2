@@ -5,14 +5,13 @@ import static android.content.ContentValues.TAG;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.graphics.Paint;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -23,60 +22,43 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Genaral_info extends AppCompatActivity {
+public class SandL4 extends AppCompatActivity {
+
     private Button btn1;
     private Button btn2;
-    private EditText name, date, reason, sceenexpo, age, duration, reduction, remark;
+    private EditText Likes, Dislikes, Comments;
     FirebaseFirestore db;
     FirebaseAuth mAuth;
 
-
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_genaral_info);
+        setContentView(R.layout.activity_sand_l4);
         db = FirebaseFirestore.getInstance();
         mAuth = FirebaseAuth.getInstance();
-        name = findViewById(R.id.editTextText13);
-        date = findViewById(R.id.editTextDate3);
-        reason = findViewById(R.id.editTextText20);
-        sceenexpo = findViewById(R.id.editTextText21);
-        age = findViewById(R.id.editTextText22);
-        duration = findViewById(R.id.editTextText23);
-        reduction = findViewById(R.id.editTextText24);
-        remark = findViewById(R.id.editTextText25);
+        Likes = findViewById(R.id.editTextText51);
+        Dislikes = findViewById(R.id.editTextText52);
+        Comments = findViewById(R.id.editTextText53);
 
-        btn1 = findViewById(R.id.previousbtn);
-        btn2 = findViewById(R.id.previousbtn2);
+        btn1 = findViewById(R.id.button11);
+        btn2 = findViewById(R.id.button14);
 
         btn1.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
 
-                        String names = name.getText().toString().trim();
-                        String dates = date.getText().toString().trim();
-                        String reasons = reason.getText().toString().trim();
-                        String screenexpo = sceenexpo.getText().toString().trim();
-                        String ages = age.getText().toString().trim();
-                        String durations = duration.getText().toString().trim();
-                        String reductions = reduction.getText().toString().trim();
-                        String remarks = remark.getText().toString().trim();
-
+                        String like = Likes.getText().toString().trim();
+                        String DisL = Dislikes.getText().toString().trim();
+                        String comment = Comments.getText().toString().trim();
 
                         Map<String, Object> user = new HashMap<>();
-                        user.put("name", names);
-                        user.put("date", dates);
-                        user.put("reason", reasons);
-                        user.put("sceenexpo", screenexpo);
-                        user.put("age", ages);
-                        user.put("duration", durations);
-                        user.put("reduction", reductions);
-                        user.put("remark", remarks);
+                        user.put("Likes", like);
+                        user.put("Dislikes", DisL);
+                        user.put("Comments", comment);
 
-
-// Add a new document with a generated ID
-                        db.collection("genaral Information")
+                        db.collection("sandl")
                                 .add(user)
                                 .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                                     @Override
@@ -92,7 +74,7 @@ public class Genaral_info extends AppCompatActivity {
                                 });
 
 
-                        Intent it = new Intent(Genaral_info.this, Client_Information_2.class);
+                        Intent it = new Intent(SandL4.this, SandL5.class);
                         startActivity(it);
                     }
                 }
@@ -102,16 +84,13 @@ public class Genaral_info extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View v) {
-                                        Intent it = new Intent(Genaral_info.this, Genaral_info2.class);
+                                        Intent it = new Intent(SandL4.this, SandL3.class);
                                         startActivity(it);
 
                                     }
                                 }
         );
+
+
     }
 }
-
-
-
-
-

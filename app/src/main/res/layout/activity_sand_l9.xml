@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SandL9">
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView134"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="36dp"-->
+<!--        android:layout_marginTop="48dp"-->
+<!--        android:text="XII) READING:"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.037"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView143"-->
+<!--        android:layout_width="122dp"-->
+<!--        android:layout_height="66dp"-->
+<!--        android:layout_marginTop="128dp"-->
+<!--        android:text="XIV) GESTURAL COMMUNICATION"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.037"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView144"-->
+<!--        android:layout_width="122dp"-->
+<!--        android:layout_height="66dp"-->
+<!--        android:layout_marginTop="236dp"-->
+<!--        android:text="XV) IMITATION SKILLS"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.037"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView147"-->
+<!--        android:layout_width="121dp"-->
+<!--        android:layout_height="36dp"-->
+<!--        android:layout_marginTop="608dp"-->
+<!--        android:text="REMARKS:"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.042"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView148"-->
+<!--        android:layout_width="122dp"-->
+<!--        android:layout_height="66dp"-->
+<!--        android:layout_marginTop="500dp"-->
+<!--        android:text="XVI) PARENT CHILD INTERACTION:"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.042"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView149"-->
+<!--        android:layout_width="122dp"-->
+<!--        android:layout_height="66dp"-->
+<!--        android:layout_marginTop="688dp"-->
+<!--        android:text="XVII) TESTS ADMINISTERED"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.037"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView150"-->
+<!--        android:layout_width="122dp"-->
+<!--        android:layout_height="66dp"-->
+<!--        android:layout_marginTop="804dp"-->
+<!--        android:text="XVIII) ADDITIONAL OBSERVATIONS & COMMENTS IF ANY"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.037"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView151"-->
+<!--        android:layout_width="122dp"-->
+<!--        android:layout_height="66dp"-->
+<!--        android:layout_marginTop="908dp"-->
+<!--        android:text="XIX) PROVISIONAL DIAGNOSIS"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.042"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView145"-->
+<!--        android:layout_width="122dp"-->
+<!--        android:layout_height="66dp"-->
+<!--        android:layout_marginTop="312dp"-->
+<!--        android:text="a) Verbal"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.351"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView146"-->
+<!--        android:layout_width="122dp"-->
+<!--        android:layout_height="66dp"-->
+<!--        android:layout_marginTop="400dp"-->
+<!--        android:text="b) Non-Verbal"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.344"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton94"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:text="Present"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.139"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView134"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton110"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="516dp"-->
+<!--        android:text="Good"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.135"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView134"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton104"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="128dp"-->
+<!--        android:text="Present"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.225"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView134"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton106"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="312dp"-->
+<!--        android:text="Present"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.549"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView134"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton108"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="404dp"-->
+<!--        android:text="Present"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.561"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView134"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton103"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:text="Not Applicable"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.894"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView134"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton95"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:text="Absent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.452"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView134"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton112"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="516dp"-->
+<!--        android:text="Poor"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.832"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView134"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton111"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="516dp"-->
+<!--        android:text="Fair"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.493"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView134"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton105"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="128dp"-->
+<!--        android:text="Absent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.557"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView134"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton107"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="312dp"-->
+<!--        android:text="Absent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.868"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView134"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton109"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="404dp"-->
+<!--        android:text="Absent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.865"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView134"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextText55"-->
+<!--        android:layout_width="313dp"-->
+<!--        android:layout_height="64dp"-->
+<!--        android:layout_marginTop="44dp"-->
+<!--        android:hint="Remarks"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="text"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.539"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView147"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView147" />-->
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextText56"-->
+<!--        android:layout_height="43dp"-->
+<!--        android:layout_width="313dp"-->
+<!--        android:layout_marginTop="124dp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Tests Adminitered"-->
+<!--        android:inputType="text"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.829"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView147"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/radioButton111" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextText57"-->
+<!--        android:layout_width="319dp"-->
+<!--        android:layout_height="43dp"-->
+<!--        android:layout_marginTop="252dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="text"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.539"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView147"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/radioButton111" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextText58"-->
+<!--        android:layout_width="319dp"-->
+<!--        android:layout_height="43dp"-->
+<!--        android:layout_marginTop="364dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="text"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.539"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView147"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/radioButton111" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nextbtn"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Genaral_info2">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     tools:context=".Genaral_info2">
 
@@ -569,8 +574,8 @@
         android:id="@+id/checkBox35"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="288dp"
-        android:layout_marginTop="388dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="396dp"
         android:text="f.NO ISSUES"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView49"
@@ -580,8 +585,8 @@
         android:id="@+id/checkBox34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="288dp"
-        android:layout_marginTop="304dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="312dp"
         android:text="e.ANY OTHER"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView49" />
@@ -590,8 +595,8 @@
         android:id="@+id/checkBox33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="288dp"
-        android:layout_marginTop="228dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="236dp"
         android:text="d.AUTISM:ADHD"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView49" />
@@ -600,8 +605,8 @@
         android:id="@+id/checkBox32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="288dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="168dp"
         android:text="c.SYNDROME"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView49" />
@@ -610,8 +615,8 @@
         android:id="@+id/checkBox30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="288dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="16dp"
         android:text="a.LATE TALKER"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView49" />
@@ -670,8 +675,8 @@
         android:id="@+id/checkBox31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="288dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="92dp"
         android:text="b.HEARING IMPAIRED"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView49" />
@@ -680,7 +685,7 @@
         android:id="@+id/textView50"
         android:layout_width="169dp"
         android:layout_height="38dp"
-        android:layout_marginStart="288dp"
+        android:layout_marginStart="232dp"
         android:layout_marginTop="28dp"
         android:text="2.PATERNAL SIDE"
         app:layout_constraintStart_toStartOf="parent"
@@ -688,21 +693,18 @@
 
     <CheckBox
         android:id="@+id/checkBox16"
-        android:layout_width="126dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="156dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="292dp"
+        android:layout_width="92dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="1132dp"
         android:text="NO"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView45"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText30"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toEndOf="@+id/textView45" />
 
     <TextView
         android:id="@+id/textView44"
-        android:layout_width="225dp"
-        android:layout_height="36dp"
+        android:layout_width="157dp"
+        android:layout_height="40dp"
         android:layout_marginTop="276dp"
         android:text="e.REASON FOR DISCOUNTINUATION:"
         app:layout_constraintStart_toStartOf="parent"
@@ -710,8 +712,8 @@
 
     <TextView
         android:id="@+id/textView42"
-        android:layout_width="225dp"
-        android:layout_height="36dp"
+        android:layout_width="157dp"
+        android:layout_height="48dp"
         android:layout_marginTop="208dp"
         android:text="d.REGULAR/IRREGULAR"
         app:layout_constraintStart_toStartOf="parent"
@@ -771,17 +773,18 @@
 
     <TextView
         android:id="@+id/textView40"
-        android:layout_width="225dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="84dp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="88dp"
         android:text="b.DURATION:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView38" />
 
     <TextView
         android:id="@+id/textView41"
-        android:layout_width="225dp"
-        android:layout_height="36dp"
+        android:layout_width="130dp"
+        android:layout_height="37dp"
         android:layout_marginTop="148dp"
         android:text="c.FREQUENCY:"
         app:layout_constraintStart_toStartOf="parent"
@@ -801,9 +804,10 @@
 
     <TextView
         android:id="@+id/textView39"
-        android:layout_width="225dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="155dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
         android:text="a.NAME OF THE ORGANIZATION:"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -824,38 +828,37 @@
 
     <TextView
         android:id="@+id/textView45"
-        android:layout_width="210dp"
-        android:layout_height="30dp"
+        android:layout_width="137dp"
+        android:layout_height="26dp"
         android:layout_marginStart="4dp"
         android:text="REPORT IF ANY:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView44"
-        app:layout_constraintVertical_bias="0.037" />
+        app:layout_constraintVertical_bias="0.027" />
 
     <CheckBox
         android:id="@+id/checkBox15"
-        android:layout_width="116dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="292dp"
+        android:layout_width="114dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="1132dp"
         android:text="YES"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView45"
         app:layout_constraintTop_toBottomOf="@+id/editTextText30"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView46"
         android:layout_width="213dp"
         android:layout_height="27dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="24dp"
         android:text="3.FAMILY HISTORY"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView45" />
 
@@ -893,54 +896,20 @@
         app:layout_constraintStart_toEndOf="@+id/checkBox17"
         app:layout_constraintTop_toBottomOf="@+id/textView47" />
 
-    <CheckBox
-        android:id="@+id/checkBox19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="368dp"
-        android:text="a. 1st DEGREE"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox17" />
-
-    <CheckBox
-        android:id="@+id/checkBox21"
-        android:layout_width="130dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="356dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="944dp"
-        android:text="3rd DEGREE"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <CheckBox
-        android:id="@+id/checkBox23"
-        android:layout_width="130dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="121dp"
-        android:layout_marginEnd="37dp"
-        android:text="2nd DEGREE"
-        app:layout_constraintEnd_toStartOf="@+id/checkBox21"
-        app:layout_constraintStart_toEndOf="@+id/checkBox19"
-        app:layout_constraintTop_toBottomOf="@+id/textView47" />
-
     <TextView
         android:id="@+id/textView48"
         android:layout_width="155dp"
         android:layout_height="33dp"
         android:layout_marginStart="39dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="377dp"
         android:text="b)HEREDITARY"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintHorizontal_bias="0.136"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox19" />
+        app:layout_constraintTop_toBottomOf="@+id/checkBox17" />
 
     <TextView
         android:id="@+id/textView49"
@@ -988,15 +957,35 @@
 
     <EditText
         android:id="@+id/editTextText32"
-        android:layout_width="373dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="92dp"
+        android:layout_width="331dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="132dp"
         android:ems="10"
         android:hint="BROTHER AGE"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.352"
-        app:layout_constraintStart_toEndOf="@+id/textView52"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox35" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="96dp"
+        android:text="Previous"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="96dp"
+        android:text="Next"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#E39898"
     tools:context=".Client_Information">
 
     <EditText
@@ -188,12 +189,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
+
     <TextView
         android:id="@+id/textView8"
         android:layout_width="70dp"
         android:layout_height="30dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="40dp"
         android:text="AGE/SEX"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -209,7 +211,7 @@
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintHorizontal_bias="0.846"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/editTextText2"
         app:layout_constraintVertical_bias="0.0" />
@@ -217,9 +219,9 @@
     <TextView
         android:id="@+id/textView10"
         android:layout_width="55dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
         android:text="D.O.B"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -233,9 +235,10 @@
         android:text="NEXT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText8" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText8"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

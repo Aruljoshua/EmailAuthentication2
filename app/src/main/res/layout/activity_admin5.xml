@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_5">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="546dp"
+        android:layout_height="621dp"
+        android:layout_marginBottom="280dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="18.15dp"
+                android:text="Activities" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Present" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Sometimes" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Absent" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Cause,if known" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Stereotypical behaviour" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Repetative behaviour" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Gazing at items" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Aggressiveness" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Self-injury" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Injurious to other" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Toe walking" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1232dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="18.15dp"
+                android:text="Cognitive Play"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Functional play(colouring,kicking,dressing etc)" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Constructive(Sand play,drawing,building block etc)" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Symbolic play(Using banana as phone etc" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Games with rules(digital games,cricket,football etc)" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Structural play(snake and ladder,hide and seek etc)" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Imaginative play" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="18.15dp"
+                android:text="Social play"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Unoccupied play" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Solitary play" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Onlooker play" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Parallel play" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Associative play" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Cooperative play" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Role play" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Pretend play" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint=""
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="64dp"
+        android:text="Previous"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="64dp"
+        android:text="Next"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView187"-->
+<!--        android:layout_width="130dp"-->
+<!--        android:layout_height="26dp"-->
+<!--        android:layout_marginTop="1348dp"-->
+<!--        android:layout_marginEnd="670dp"-->
+<!--        android:text="Remarks:"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+

@@ -86,11 +86,11 @@
         android:id="@+id/textView17"
         android:layout_width="95dp"
         android:layout_height="52dp"
-        android:layout_marginTop="352dp"
-        android:text=" :CONTACT NUMBER :"
+        android:layout_marginTop="340dp"
+        android:text=" CONTACT NUMBER :"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -122,8 +122,8 @@
 
     <EditText
         android:id="@+id/editTextText9"
-        android:layout_width="260dp"
-        android:layout_height="49dp"
+        android:layout_width="237dp"
+        android:layout_height="48dp"
         android:layout_marginTop="212dp"
         android:layout_marginEnd="4dp"
         android:ems="10"
@@ -136,8 +136,8 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="129dp"
-        android:layout_height="30dp"
+        android:layout_width="131dp"
+        android:layout_height="47dp"
         android:layout_marginTop="220dp"
         android:text="FATHER'S NAME :"
         android:textSize="16sp"
@@ -188,10 +188,10 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="109dp"
-        android:layout_height="29dp"
+        android:layout_width="123dp"
+        android:layout_height="31dp"
         android:layout_marginTop="160dp"
-        android:text="REFERRED BY :"
+        android:text="REFERRED BY:"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.026"
@@ -202,18 +202,18 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="40dp"
         android:text="MOTHER TONGUE :"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextText3"
-        android:layout_width="260dp"
-        android:layout_height="49dp"
+        android:layout_width="244dp"
+        android:layout_height="46dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="4dp"
         android:ems="10"
@@ -246,10 +246,10 @@
         android:inputType="phone"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toEndOf="@+id/textView17"
         app:layout_constraintTop_toBottomOf="@+id/editTextText11"
-        app:layout_constraintVertical_bias="0.303" />
+        app:layout_constraintVertical_bias="0.25" />
 
     <EditText
         android:id="@+id/editTextPhone5"

@@ -1,7 +1,5 @@
 package com.example.emailauthentication;
 
-
-
 import static android.content.ContentValues.TAG;
 
 import androidx.annotation.NonNull;
@@ -23,59 +21,41 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import java.util.HashMap;
 import java.util.Map;
 
-public class General_info4 extends AppCompatActivity {
-
+public class Admin13 extends AppCompatActivity {
     private Button btn1;
-    private Button btn2;
-    private EditText Specify, weight, mention,OtherSpecify, MedicationNames;
+
+    private EditText Remarks,remarks2;
     FirebaseFirestore db;
     FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        setContentView(R.layout.activity_general_info4);
-
+        setContentView(R.layout.activity_admin13);
         db = FirebaseFirestore.getInstance();
         mAuth = FirebaseAuth.getInstance();
-        Specify = findViewById(R.id.editTextText40);
-        weight = findViewById(R.id.editTextText45);
-        mention = findViewById(R.id.editTextText46);
-        OtherSpecify = findViewById(R.id.editTextText47);
-        MedicationNames = findViewById(R.id.editTextText48);
+        Remarks = findViewById(R.id.editTextText64);
+        remarks2 = findViewById(R.id.editTextText64);
 
 
 
-        btn1 = findViewById(R.id.button5);
-        btn2 = findViewById(R.id.button7);
+        btn1 = findViewById(R.id.button15);
+
 
         btn1.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
 
-                        String S = Specify.getText().toString().trim();
-                        String We = weight.getText().toString().trim();
-                        String Men = mention.getText().toString().trim();
-                        String OtherS = OtherSpecify.getText().toString().trim();
-                        String Mname = MedicationNames.getText().toString().trim();
-
+                        String remark = Remarks.getText().toString().trim();
+                        String remark2 = remarks2.getText().toString().trim();
 
 
 
                         Map<String, Object> user = new HashMap<>();
-                        user.put("Specify", S);
-                        user.put("weight", We);
-                        user.put("mention", Men);
-                        user.put("OtherSpecify", OtherS);
-                        user.put("MedicationNames", Mname);
+                        user.put("Remarks", remark);
 
-
-
-
-// Add a new document with a generated ID
-                        db.collection("genaral Information 2")
+                        db.collection("sandl")
                                 .add(user)
                                 .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                                     @Override
@@ -91,21 +71,11 @@ public class General_info4 extends AppCompatActivity {
                                 });
 
 
-                       Intent it = new Intent(General_info4.this, Genaral_info2.class);
-                       startActivity(it);
+                        Intent it = new Intent(Admin13.this, Admin13.class);
+                        startActivity(it);
                     }
                 }
 
-        );
-
-        btn2.setOnClickListener(new View.OnClickListener() {
-                                    @Override
-                                    public void onClick(View v) {
-                                       Intent it = new Intent(General_info4.this, General_info5.class);
-                                      startActivity(it);
-
-                                    }
-                                }
         );
     }
 }

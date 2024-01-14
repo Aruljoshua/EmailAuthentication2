@@ -49,61 +49,46 @@ public class signup extends AppCompatActivity {
         msignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String mail=msignupemail.getText().toString().trim();
-                String password=msignuppassword.getText().toString().trim();
-                Map<String, Object> user = new HashMap<>();
-                user.put("email", mail);
-                user.put("password", password);
+                String mail = msignupemail.getText().toString().trim();
+                String password = msignuppassword.getText().toString().trim();
 
-
-                db.collection("PlayerDetails")
-                        .add(user)
-                        .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
-                            @Override
-                            public void onSuccess(DocumentReference documentReference) {
-                                Toast.makeText(signup.this, "Account created successfully!", Toast.LENGTH_SHORT).show();
-                                finish(); // Finish the Signup activity
-                            }
-                        })
-                        .addOnFailureListener(new OnFailureListener() {
-                            @Override
-                            public void onFailure(@NonNull Exception e) {
-                                Toast.makeText(signup.this, "Error creating account. Please try again.", Toast.LENGTH_SHORT).show();
-                            }
-                        });
-
-                if(mail.isEmpty() || password.isEmpty())
-                {
-                    Toast.makeText(getApplicationContext(),"All Fields are Required",Toast.LENGTH_SHORT).show();
-                }
-                else if(password.length()<7)
-                {
-                    Toast.makeText(getApplicationContext(),"Password Should Greater than 7 Digits",Toast.LENGTH_SHORT).show();
-                }
-                else
-                {
-                    /// registered the user to firebase
-
-                    firebaseAuth.createUserWithEmailAndPassword(mail,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                if (mail.isEmpty() || password.isEmpty()) {
+                    Toast.makeText(getApplicationContext(), "All Fields are Required", Toast.LENGTH_SHORT).show();
+                } else if (password.length() < 7) {
+                    Toast.makeText(getApplicationContext(), "Password Should be at Least 7 Characters", Toast.LENGTH_SHORT).show();
+                } else {
+                    // Register the user to Firebase
+                    firebaseAuth.createUserWithEmailAndPassword(mail, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
+                            if (task.isSuccessful()) {
+                                // User registration successful, add details to Firestore
+                                Map<String, Object> user = new HashMap<>();
+                                user.put("email", mail);
+                                user.put("password", password);
 
-                            if(task.isSuccessful())
-                            {
-                                Toast.makeText(getApplicationContext(),"Registration Successful",Toast.LENGTH_SHORT).show();
-                                sendEmailVerification();
+                                db.collection("PlayerDetails")
+                                        .add(user)
+                                        .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+                                            @Override
+                                            public void onSuccess(DocumentReference documentReference) {
+                                                Toast.makeText(signup.this, "Account created successfully!", Toast.LENGTH_SHORT).show();
+                                                sendEmailVerification();
+                                                finish(); // Finish the Signup activity
+                                            }
+                                        })
+                                        .addOnFailureListener(new OnFailureListener() {
+                                            @Override
+                                            public void onFailure(@NonNull Exception e) {
+                                                Toast.makeText(signup.this, "Error creating account. Please try again.", Toast.LENGTH_SHORT).show();
+                                            }
+                                        });
+                            } else {
+                                Toast.makeText(getApplicationContext(), "Failed To Register", Toast.LENGTH_SHORT).show();
                             }
-                            else
-                            {
-                                Toast.makeText(getApplicationContext(),"Failed To Register",Toast.LENGTH_SHORT).show();
-                            }
-
-
                         }
                     });
-
                 }
-
             }
         });
 
@@ -122,7 +107,7 @@ public class signup extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Verification Email is Sent,Verify and Log In Again",Toast.LENGTH_SHORT).show();
                     firebaseAuth.signOut();
                     finish();
-                    startActivity(new Intent(signup.this,Client_Information.class));
+                    startActivity(new Intent(signup.this,MainActivity.class));
                 }
             });
         }

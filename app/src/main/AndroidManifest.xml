@@ -13,13 +13,58 @@
         android:theme="@style/Theme.EmailAuthentication"
         tools:targetApi="31">
         <activity
+            android:name=".Admin12"
+            android:exported="false" />
+        <activity
+            android:name=".Admin13"
+            android:exported="false" />
+        <activity
+            android:name=".Admin11"
+            android:exported="false" />
+        <activity
+            android:name=".Admin7"
+            android:exported="false" />
+        <activity
+            android:name=".Admin6"
+            android:exported="false" />
+        <activity
+            android:name=".Admin2"
+            android:exported="false" />
+        <activity
             android:name=".General_info5"
             android:exported="false" />
         <activity
-            android:name=".General_info4"
+            android:name=".Admin_5"
             android:exported="false" />
         <activity
-            android:name=".General_info3"
+            android:name=".Admin_3"
+            android:exported="false" />
+        <activity
+            android:name=".SandL8"
+            android:exported="false" />
+        <activity
+            android:name=".SandL5"
+            android:exported="false" />
+        <activity
+            android:name=".SandL4"
+            android:exported="false" />
+        <activity
+            android:name=".SandL9"
+            android:exported="false" />
+        <activity
+            android:name=".SandL6"
+            android:exported="false" />
+        <activity
+            android:name=".SandL3"
+            android:exported="false" />
+        <activity
+            android:name=".SandL2"
+            android:exported="false" />
+        <activity
+            android:name=".SandL"
+            android:exported="false" />
+        <activity
+            android:name=".General_info4"
             android:exported="false" />
         <activity
             android:name=".Genaral_info2"
@@ -53,9 +98,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"/>
-
-
+            android:exported="true" />
     </application>
 
 </manifest>
