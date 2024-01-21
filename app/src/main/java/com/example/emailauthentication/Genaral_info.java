@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -30,6 +31,8 @@ public class Genaral_info extends AppCompatActivity {
     FirebaseFirestore db;
     FirebaseAuth mAuth;
 
+    private CheckBox checkBox4, checkBox5,checkBox6,checkBox7,checkBox8,checkBox9,checkBox11,checkBox12,checkBox3;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,10 +49,22 @@ public class Genaral_info extends AppCompatActivity {
         reduction = findViewById(R.id.editTextText24);
         remark = findViewById(R.id.editTextText25);
 
-        btn1 = findViewById(R.id.previousbtn);
-        btn2 = findViewById(R.id.previousbtn2);
+        checkBox4 = findViewById(R.id.checkBox4);
+        checkBox5 = findViewById(R.id.checkBox5);
+        checkBox6 = findViewById(R.id.checkBox6);
+        checkBox7 = findViewById(R.id.checkBox7);
+        checkBox8 = findViewById(R.id.checkBox8);
+        checkBox9 = findViewById(R.id.checkBox9);
+        checkBox11 = findViewById(R.id.checkBox11);
+        checkBox12 = findViewById(R.id.checkBox12);
+        checkBox3 = findViewById(R.id.checkBox3);
 
-        btn1.setOnClickListener(
+
+
+        btn1 = findViewById(R.id.previousbtn);
+        btn2 = findViewById(R.id.generalinfonext);
+
+        btn2.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -64,6 +79,17 @@ public class Genaral_info extends AppCompatActivity {
                         String remarks = remark.getText().toString().trim();
 
 
+                        boolean isChecked4 = checkBox4.isChecked();
+                        boolean isChecked5 = checkBox5.isChecked();
+                        boolean isChecked6 = checkBox6.isChecked();
+                        boolean isChecked7 = checkBox7.isChecked();
+                        boolean isChecked8 = checkBox8.isChecked();
+                        boolean isChecked9 = checkBox9.isChecked();
+                        boolean isChecked11 = checkBox11.isChecked();
+                        boolean isChecked12 = checkBox12.isChecked();
+                        boolean isChecked3 = checkBox3.isChecked();
+
+
                         Map<String, Object> user = new HashMap<>();
                         user.put("name", names);
                         user.put("date", dates);
@@ -73,6 +99,16 @@ public class Genaral_info extends AppCompatActivity {
                         user.put("duration", durations);
                         user.put("reduction", reductions);
                         user.put("remark", remarks);
+
+                        user.put("userCheckBox4Value", isChecked4);
+                        user.put("userCheckBox5Value", isChecked5);
+                        user.put("userCheckBox6Value", isChecked6);
+                        user.put("userCheckBox7Value", isChecked7);
+                        user.put("userCheckBox8Value", isChecked8);
+                        user.put("userCheckBox9Value", isChecked9);
+                        user.put("userCheckBox11Value", isChecked11);
+                        user.put("userCheckBox12Value", isChecked12);
+                        user.put("userCheckBox3Value", isChecked3);
 
 
 // Add a new document with a generated ID
@@ -92,17 +128,17 @@ public class Genaral_info extends AppCompatActivity {
                                 });
 
 
-                        Intent it = new Intent(Genaral_info.this, Client_Information_2.class);
+                        Intent it = new Intent(Genaral_info.this, Genaral_info2.class);
                         startActivity(it);
                     }
                 }
 
         );
 
-        btn2.setOnClickListener(new View.OnClickListener() {
+        btn1.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View v) {
-                                        Intent it = new Intent(Genaral_info.this, Genaral_info2.class);
+                                        Intent it = new Intent(Genaral_info.this, Client_Information_2.class);
                                         startActivity(it);
 
                                     }

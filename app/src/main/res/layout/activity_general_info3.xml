@@ -498,8 +498,8 @@
 
     <RadioButton
         android:id="@+id/radioButton107"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="77dp"
+        android:layout_height="45dp"
         android:layout_marginStart="29dp"
         android:layout_marginTop="1dp"
         android:text="IUI"
@@ -530,23 +530,23 @@
         android:id="@+id/textView190"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="737dp"
+        android:layout_marginTop="36dp"
         android:text="If any other please specify:"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintHorizontal_bias="0.041"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView187" />
 
     <EditText
         android:id="@+id/editTextText42"
-        android:layout_width="573dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="390dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:hint="Specify"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView190" />
 
@@ -554,13 +554,13 @@
         android:id="@+id/button23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
+        android:layout_marginStart="84dp"
         android:layout_marginTop="32dp"
         android:text="Previous"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText42"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button24"

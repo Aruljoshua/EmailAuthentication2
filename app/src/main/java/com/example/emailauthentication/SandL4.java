@@ -41,8 +41,8 @@ public class SandL4 extends AppCompatActivity {
         Dislikes = findViewById(R.id.editTextText52);
         Comments = findViewById(R.id.editTextText53);
 
-        btn1 = findViewById(R.id.button11);
-        btn2 = findViewById(R.id.button14);
+        btn2 = findViewById(R.id.button11);
+        btn1 = findViewById(R.id.button14);
 
         btn1.setOnClickListener(
                 new View.OnClickListener() {
@@ -74,7 +74,7 @@ public class SandL4 extends AppCompatActivity {
                                 });
 
 
-                        Intent it = new Intent(SandL4.this, SandL5.class);
+                        Intent it = new Intent(SandL4.this, SandL6.class);
                         startActivity(it);
                     }
                 }

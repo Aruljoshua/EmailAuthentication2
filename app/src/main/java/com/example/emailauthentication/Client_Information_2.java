@@ -10,7 +10,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.RadioGroup;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -26,6 +28,9 @@ public class Client_Information_2 extends AppCompatActivity {
     private EditText email,remark,add1,add2,res1,res2,sig;
     FirebaseFirestore db;
     FirebaseAuth mAuth;
+    private RadioGroup radioGroup;
+    private CheckBox checkBox, checkBox2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +45,8 @@ public class Client_Information_2 extends AppCompatActivity {
         res1 = findViewById(R.id.editTextText12);
         res2 =findViewById(R.id.editTextText14);
         sig = findViewById(R.id.editTextText19);
+        checkBox = findViewById(R.id.checkBox);
+        checkBox2 = findViewById(R.id.checkBox2);
         b4=findViewById(R.id.submit);
         b4.setOnClickListener(new View.OnClickListener(){
                                   @Override
@@ -51,6 +58,8 @@ public class Client_Information_2 extends AppCompatActivity {
                                       String res = res1.getText().toString().trim();
                                       String ress = res2.getText().toString().trim();
                                       String sigs = sig.getText().toString().trim();
+                                      boolean isChecked = checkBox.isChecked();
+                                      boolean isChecked1 = checkBox2.isChecked();
 
 
 
@@ -65,6 +74,8 @@ public class Client_Information_2 extends AppCompatActivity {
                                       user.put("res1", res);
                                       user.put("res2", ress);
                                       user.put("sig", sigs);
+                                      user.put("checkBoxValue", isChecked);
+                                      user.put("checkBoxValue", isChecked1);
 
 
 

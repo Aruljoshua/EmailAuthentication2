@@ -7,8 +7,9 @@
     android:layout_height="match_parent"
     tools:context=".SandL3">
 <androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".SandL3">
 
     <TextView
@@ -112,18 +113,19 @@
         android:id="@+id/radioButton51"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="96dp"
         android:text="Chest level"
-        app:layout_constraintStart_toEndOf="@+id/radioButton50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText33" />
 
     <TextView
         android:id="@+id/textView114"
         android:layout_width="122dp"
         android:layout_height="43dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="84dp"
         android:text="b) Mouthing"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView113" />
@@ -153,7 +155,8 @@
         android:id="@+id/textView115"
         android:layout_width="152dp"
         android:layout_height="44dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
         android:text="c)Nasal regurgitation"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView114" />
@@ -162,8 +165,8 @@
         android:id="@+id/radioButton54"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
         android:text="PRESENT"
         app:layout_constraintStart_toEndOf="@+id/textView115"
         app:layout_constraintTop_toBottomOf="@+id/radioButton52" />
@@ -172,10 +175,10 @@
         android:id="@+id/radioButton55"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="60dp"
         android:text="ABSENT"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toEndOf="@+id/radioButton54"
         app:layout_constraintTop_toBottomOf="@+id/radioButton53" />
 
@@ -183,10 +186,10 @@
         android:id="@+id/textView116"
         android:layout_width="105dp"
         android:layout_height="40dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="44dp"
         android:text="IV) FEEDING"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.026"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView115" />
 
@@ -194,8 +197,8 @@
         android:id="@+id/radioButton56"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="36dp"
         android:text="MESSY EATER"
         app:layout_constraintStart_toEndOf="@+id/textView116"
         app:layout_constraintTop_toBottomOf="@+id/radioButton54" />
@@ -204,30 +207,31 @@
         android:id="@+id/radioButton57"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="32dp"
         android:text="CHOOSY EATER"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton56" />
+        app:layout_constraintTop_toBottomOf="@+id/radioButton55" />
 
     <EditText
         android:id="@+id/editTextText34"
-        android:layout_width="249dp"
-        android:layout_height="69dp"
-        android:layout_marginTop="123dp"
+        android:layout_width="327dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Texture Preferred Comment"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/radioButton57"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton55" />
+        app:layout_constraintHorizontal_bias="0.345"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton59" />
 
     <RadioButton
         android:id="@+id/radioButton58"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="37dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
         android:text="Can eat on his own"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton57" />
@@ -236,28 +240,28 @@
         android:id="@+id/radioButton59"
         android:layout_width="126dp"
         android:layout_height="53dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
         android:text="BEING FED"
         app:layout_constraintStart_toEndOf="@+id/radioButton58"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText34" />
+        app:layout_constraintTop_toBottomOf="@+id/radioButton57" />
 
     <RadioButton
         android:id="@+id/radioButton60"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="31dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
         android:text="FORCE-FED"
         app:layout_constraintStart_toEndOf="@+id/radioButton59"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText34" />
+        app:layout_constraintTop_toBottomOf="@+id/radioButton57" />
 
     <TextView
         android:id="@+id/textView55"
-        android:layout_width="108dp"
-        android:layout_height="55dp"
+        android:layout_width="107dp"
+        android:layout_height="30dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="64dp"
         android:text="Distraction used"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton58" />
@@ -266,8 +270,8 @@
         android:id="@+id/radioButton61"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="56dp"
         android:text="YES"
         app:layout_constraintStart_toEndOf="@+id/textView55"
         app:layout_constraintTop_toBottomOf="@+id/radioButton59" />
@@ -276,8 +280,8 @@
         android:id="@+id/radioButton62"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="64dp"
         android:text="NO"
         app:layout_constraintStart_toEndOf="@+id/radioButton61"
         app:layout_constraintTop_toBottomOf="@+id/radioButton60" />
@@ -286,8 +290,8 @@
         android:id="@+id/editTextText36"
         android:layout_width="301dp"
         android:layout_height="59dp"
-        android:layout_marginStart="204dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="IF YES SPECIFY:"
         android:inputType="text"
@@ -298,8 +302,8 @@
         android:id="@+id/textView109"
         android:layout_width="190dp"
         android:layout_height="60dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="112dp"
         android:text="V) VEGITATIVE SKILLS"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -310,8 +314,8 @@
         android:id="@+id/textView117"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="188dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="44dp"
         android:text="Adequate"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -321,8 +325,8 @@
         android:id="@+id/textView118"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="120dp"
         android:text="Inadequate"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/textView117"
@@ -332,8 +336,8 @@
         android:id="@+id/textView119"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="120dp"
         android:text="Not Tried"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/textView118"
@@ -363,8 +367,8 @@
 
     <TextView
         android:id="@+id/textView122"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="51dp"
+        android:layout_height="23dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="68dp"
         android:text="c.Biting"
@@ -398,8 +402,8 @@
         android:id="@+id/radioButton63"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintStart_toEndOf="@+id/textView120"
         app:layout_constraintTop_toBottomOf="@+id/textView117" />
 
@@ -407,8 +411,8 @@
         android:id="@+id/radioButton64"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintStart_toEndOf="@+id/radioButton63"
         app:layout_constraintTop_toBottomOf="@+id/textView118" />
 
@@ -416,8 +420,8 @@
         android:id="@+id/radioButton65"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintStart_toEndOf="@+id/radioButton64"
         app:layout_constraintTop_toBottomOf="@+id/textView119" />
 
@@ -425,8 +429,8 @@
         android:id="@+id/radioButton66"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintStart_toEndOf="@+id/textView121"
         app:layout_constraintTop_toBottomOf="@+id/radioButton63" />
 
@@ -434,8 +438,8 @@
         android:id="@+id/radioButton67"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintStart_toEndOf="@+id/radioButton66"
         app:layout_constraintTop_toBottomOf="@+id/radioButton64" />
 
@@ -443,8 +447,8 @@
         android:id="@+id/radioButton68"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintStart_toEndOf="@+id/radioButton67"
         app:layout_constraintTop_toBottomOf="@+id/radioButton65" />
 
@@ -452,8 +456,8 @@
         android:id="@+id/radioButton69"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="132dp"
         app:layout_constraintStart_toEndOf="@+id/textView122"
         app:layout_constraintTop_toBottomOf="@+id/radioButton63" />
 
@@ -461,8 +465,8 @@
         android:id="@+id/radioButton70"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintStart_toEndOf="@+id/radioButton71"
         app:layout_constraintTop_toBottomOf="@+id/radioButton68" />
 
@@ -470,8 +474,8 @@
         android:id="@+id/radioButton72"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintStart_toEndOf="@+id/radioButton73"
         app:layout_constraintTop_toBottomOf="@+id/radioButton71" />
 
@@ -479,8 +483,8 @@
         android:id="@+id/radioButton74"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintStart_toEndOf="@+id/radioButton72"
         app:layout_constraintTop_toBottomOf="@+id/radioButton70" />
 
@@ -488,8 +492,8 @@
         android:id="@+id/radioButton75"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="52dp"
         app:layout_constraintStart_toEndOf="@+id/textView124"
         app:layout_constraintTop_toBottomOf="@+id/radioButton73" />
 
@@ -497,8 +501,8 @@
         android:id="@+id/radioButton76"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintStart_toEndOf="@+id/radioButton75"
         app:layout_constraintTop_toBottomOf="@+id/radioButton72" />
 
@@ -506,8 +510,8 @@
         android:id="@+id/radioButton77"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="52dp"
         app:layout_constraintStart_toEndOf="@+id/radioButton76"
         app:layout_constraintTop_toBottomOf="@+id/radioButton74" />
 
@@ -515,8 +519,8 @@
         android:id="@+id/radioButton73"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintStart_toEndOf="@+id/textView123"
         app:layout_constraintTop_toBottomOf="@+id/radioButton69" />
 
@@ -524,8 +528,8 @@
         android:id="@+id/radioButton71"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintStart_toEndOf="@+id/radioButton69"
         app:layout_constraintTop_toBottomOf="@+id/radioButton67" />
 
@@ -533,27 +537,27 @@
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
+        android:layout_marginStart="96dp"
         android:layout_marginTop="81dp"
         android:layout_marginBottom="35dp"
         android:text="Previous"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView124"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="264dp"
+        android:layout_marginStart="252dp"
         android:layout_marginTop="81dp"
         android:layout_marginBottom="35dp"
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView124"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

@@ -15,10 +15,11 @@
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="62dp"
+        android:layout_marginTop="60dp"
         android:orientation="vertical"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText67"> <!-- Adjust the overall padding as needed -->
 
@@ -68,6 +69,7 @@
                 android:background="@drawable/cell_border"
                 android:padding="10.15dp"
                 android:text="Nill" />
+
         </LinearLayout>
 
         <!-- Row 2 -->
@@ -327,6 +329,7 @@
             android:gravity="center"
             android:orientation="horizontal">
 
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="48dp"
@@ -334,7 +337,6 @@
                 android:background="@drawable/cell_border"
                 android:padding="10.15dp"
                 android:text="Out" />
-
 
             <RadioButton
                 android:layout_width="0dp"
@@ -384,33 +386,299 @@
         android:hint="Remarks"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.535"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="615dp" />
+        tools:layout_editor_absoluteY="647dp" />
 
     <TextView
         android:id="@+id/textView205"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
         android:text="Remarks:"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         tools:ignore="MissingConstraints" />
 
     <LinearLayout
-        android:id="@+id/linearLayout22"
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="440dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="2224dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText63"> <!-- Adjust the overall padding as needed -->
+
+
+        <!-- Row 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="76dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="Functional Communication"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="76dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp"
+                android:text="Present" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="76dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp"
+                android:text="Absent" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="393dp"
+        android:layout_height="307dp"
+        android:layout_marginTop="36dp"
         android:orientation="vertical"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.605"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText64"> <!-- Adjust the overall padding as needed -->
+
+        <!-- Row 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="76dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/cell_border"
+                android:padding="18.15dp"
+                android:text="If present," />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="76dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="non verbal" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="76dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp"
+                android:text="verbal" />
+        </LinearLayout>
+
+        <!-- Row 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp"
+                android:text="Simple" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp"
+                android:text="1 word" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp" />
+
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp"
+                android:text="Complex" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp"
+                android:text="2 words" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp" />
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp"
+                android:text="Simple" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:padding="10.15dp" />
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:background="@drawable/cell_border"
+                android:hint="."
+                android:padding="8dp"
+                android:text="Complex" />
+
+
+        </LinearLayout>
+
+        <!-- Add more rows in a similar fashion -->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView201"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="Remarks:"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText64"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="Remarks"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView201" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="1187dp"> <!-- Adjust the overall padding as needed -->
 
         <!-- Row 1 -->
         <LinearLayout
@@ -1265,274 +1533,6 @@
         <!-- Add more rows in a similar fashion -->
 
     </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="3464dp"
-        android:orientation="vertical"
-        android:padding="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText63"> <!-- Adjust the overall padding as needed -->
-
-
-        <!-- Row 2 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="76dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:padding="10.15dp"
-                android:text="Functional Communication"
-                android:textSize="16sp" />
-
-            <RadioButton
-                android:layout_width="0dp"
-                android:layout_height="76dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:hint="."
-                android:padding="8dp"
-                android:text="Present" />
-
-            <RadioButton
-                android:layout_width="0dp"
-                android:layout_height="76dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:hint="."
-                android:padding="8dp"
-                android:text="Absent" />
-
-
-        </LinearLayout>
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="393dp"
-        android:layout_height="307dp"
-        android:layout_marginTop="32dp"
-        android:orientation="vertical"
-        android:padding="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText64"> <!-- Adjust the overall padding as needed -->
-
-        <!-- Row 1 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="76dp"
-                android:layout_weight="0.5"
-                android:background="@drawable/cell_border"
-                android:padding="18.15dp"
-                android:text="If present," />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="76dp"
-                android:layout_weight="0.5"
-                android:background="@drawable/cell_border"
-                android:padding="10.15dp"
-                android:text="non verbal" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="76dp"
-                android:layout_weight="0.5"
-                android:background="@drawable/cell_border"
-                android:padding="10.15dp"
-                android:text="verbal" />
-        </LinearLayout>
-
-        <!-- Row 2 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:padding="10.15dp" />
-
-
-            <RadioButton
-                android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:hint="."
-                android:padding="8dp"
-                android:text="Simple" />
-
-            <RadioButton
-                android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:hint="."
-                android:padding="8dp"
-                android:text="1 word" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:padding="10.15dp" />
-
-
-            <RadioButton
-                android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:hint="."
-                android:padding="8dp"
-                android:text="Complex" />
-
-            <RadioButton
-                android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:hint="."
-                android:padding="8dp"
-                android:text="2 words" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:padding="10.15dp" />
-
-
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:hint="."
-                android:padding="8dp" />
-
-            <RadioButton
-                android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:hint="."
-                android:padding="8dp"
-                android:text="Simple" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:padding="10.15dp" />
-
-
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:hint="."
-                android:padding="8dp" />
-
-            <RadioButton
-                android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_weight="1"
-                android:background="@drawable/cell_border"
-                android:hint="."
-                android:padding="8dp"
-                android:text="Complex" />
-
-
-        </LinearLayout>
-
-        <!-- Add more rows in a similar fashion -->
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView201"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
-        android:text="Remarks:"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextText64"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="12dp"
-        android:ems="10"
-        android:hint="Remarks"
-        android:inputType="text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.253"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView201" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
